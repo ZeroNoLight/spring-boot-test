@@ -30,11 +30,11 @@ public class SoftwareEngineer {
         this.id = id;
     }
 
-    public void setName(){
+    public void setName(String name){
         this.name = name;
     }
 
-    public void setTechStack(){
+    public void setTechStack(List<String> techStack){
         this.techStack = techStack;
     }
 
